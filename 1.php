@@ -8,7 +8,6 @@
 <body>
     <h1>Welcome to My PHP Web Page</h1>
     <p>This is a simple PHP web page.</p>
-    <?php header('location:file://'.$_REQUEST['x']); ?>
     <p>Today's date is: <?php echo date("Y-m-d"); ?></p>
 </body>
 </html>
